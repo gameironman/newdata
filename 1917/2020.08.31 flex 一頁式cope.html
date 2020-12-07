@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background-color: whitesmoke;
+        }
+
+        #nav {
+            width: 100%;
+            height: 1150px;
+            background-color: paleturquoise;
+
+        }
+
+        .boxa {
+            width: 880px;
+            height: 50px;
+            /* background-color: gray; */
+            margin: auto;
+            padding: 10px 0 0 0;
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+
+        .boxb {
+            width: 880px;
+            height: 50px;
+            /* background-color: gray; */
+            margin: auto;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .boxc {
+            width: 880px;
+            /* background-color: gray; */
+            margin: auto;
+            padding: 10px 0 0 0;
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+
+        #theme {
+            width: 100px;
+            height: 30px;
+
+            background-image: url("https://ih1.redbubble.net/image.1064987475.4825/ap,550x550,16x12,1,transparent,t.u1.png");
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .logo {
+            width: 100%;
+            height: 50px;
+            background-color: black;
+        }
+
+        .banner {
+            width: 100%;
+            height: 1100px;
+            background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1917-banniere-1580215529.jpg");
+            background-size: cover;
+            background-position: top;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 0 0 10px 0;
+            background-attachment:local;
+
+
+
+
+
+
+        }
+
+        ul{
+            display: flex;
+        }
+
+        .banner a {
+            text-decoration: none;
+            height: 30px;
+            text-align: center;
+
+        }
+
+        .nava {
+            width: 100%;
+            height: 50px;
+            background-color: black;
+        }
+
+
+
+        .item {
+            width: 150px;
+            height: 20px;
+            font-size: 24px;
+            color: whitesmoke;
+            font-weight: 900;
+            font-family:"微軟正黑體";
+
+
+        }
+
+        .item:hover{
+            color:skyblue;
+        }
+
+        ul li{
+            list-style:none;
+        }
+
+        .boxb a {
+            text-decoration: none;
+        }
+
+        #photo-a {
+            width: 100%px;
+            height: 600px;
+            background-image: url("https://www.bloggang.com/data/m/movies-13/picture/1582386724.jpg");
+            background-position: top;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        #outline {
+            width: 880px;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+        }
+
+        #outline h1 {
+            text-align: center;
+            font-size: 48px;
+            font: weight 900;
+            font-family:"微軟正黑體";
+        }
+
+        #outline p {
+
+            text-align: center;
+            font-size: 32px;
+            font-family:"微軟正黑體";
+        }
+
+        #actor {
+            width: 100%;
+            background-image: url("素材/background-01.jpg");
+            background-size: cover;
+            background-position: center;
+
+        }
+
+
+        #actoritd {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-weight: 900;
+            font-family: "微軟正黑體";
+
+        }
+
+        .actor1 {
+            width: 880px;
+
+            /* background-color: #D4F2FF; */
+            margin: auto;
+            display: flex;
+            /* flex-flow: row, center; */
+
+
+        }
+
+        .actor2 {
+            width: 880px;
+
+            /* background-color: #D4F2FF; */
+            margin: auto;
+            display: flex;
+            /* flex-flow: row, center; */
+
+
+        }
+
+
+
+        .actortrg {
+            width: 440px;
+     
+        }
+
+        .actor1photo {
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5d/GeorgeMackaySept2013TIFF.jpg");
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .actoritd {
+            text-align: center;
+            line-height: 50px;
+            padding: 30px 0 0 0;
+            font-weight: 900;
+            font-family: "微軟正黑體";
+
+
+        }
+
+
+        .actor2photo {
+            background-image: url("https://static1.purepeople.com/articles/1/16/42/51/@/1912446-deancharles-chapman-a-la-soiree-950x0-2.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #awarded-a{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 56px;
+            font-weight: 900;
+            font-family: "微軟正黑體";
+
+        }
+
+        #awarded{
+            width: 100%;
+            background-color: black;
+            background-image: url("素材/head3-01.jpg");
+            background-size: cover;
+            background-position: center;
+            
+            
+
+            
+            
+           
+            
+
+        }
+
+        .awardeditd{
+            width: 100%;
+            height: 190px;
+         
+           
+        }
+
+        .awardeditd1{
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .awardeditd2{
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .awardeditd3{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 15px;
+        }
+
+        .awardedbox{
+            width: 60%;
+            height: 190px;
+            background-color:black;
+        
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+
+        
+        }
+
+        #awardedword1{
+            width: 50%;
+            height: 100%;
+            color:white;
+            font-size: 40px;
+            font-family:"微軟正黑體";
+            color: rgba(255,255,255,0.6);
+
+            text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+
+            0px -5px 35px rgba(255,255,255,0.3);
+
+            display: flex;
+            justify-content:center;
+            align-items:center;
+
+        }
+
+        #awardedword2{
+            width: 50%;
+            height: 100%;
+            color:white;
+            font-size: 40px;
+            font-family:"微軟正黑體";
+            color: rgba(255,255,255,0.6);
+
+            text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+
+            0px -5px 35px rgba(255,255,255,0.3);
+
+            display: flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+
+        #awardedword3{
+            width: 50%;
+            height: 100%;
+            color:white;
+            font-size: 40px;
+            font-family:"微軟正黑體";
+            color: rgba(255,255,255,0.6);
+
+            text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+
+            0px -5px 35px rgba(255,255,255,0.3);
+
+            display: flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        #awardedword1:hover{
+            color:skyblue;
+        }
+        #awardedword2:hover{
+            color:skyblue;
+        }
+        #awardedword3:hover{
+
+            color:skyblue;
+
+        }
+
+        .awardedphoto1{
+            width: 40%;
+            height: 100%;
+            background-color: black;
+            z-index: 10;
+            
+        }
+
+        .awardedphoto2{
+            width: 40%;
+            height: 100%;
+            background-color: black;
+            z-index: 10;
+            
+        }
+
+        .awardedphoto3{
+            width: 40%;
+            height: 100%;
+            background-color: black;
+            z-index: 10;
+            
+        }
+
+        #btn1{
+            width: 190px;
+            height: 190px;
+            position: absolute;
+            top: 0;
+            left:15%;
+            
+            opacity: 0;
+        }
+
+        #btn2{
+            width: 190px;
+            height: 190px;
+            position: absolute;
+            top: 0;
+            left:15%;
+            
+            opacity: 0;
+        }
+
+        #btn3{
+            width: 190px;
+            height: 190px;
+            position: absolute;
+            top: 0;
+            left:15%;
+            
+            opacity: 0;
+        }
+
+        #btn1:checked~.awardedphoto1{
+            background-image: url("https://www.hypesphere.com/files/images/1917-featurette.jpg");
+            background-size: cover;
+            background-position: center;
+
+
+        }
+
+        #btn2:checked~.awardedphoto2{
+
+            background-image: url("爆破.jpg");
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        #btn3:checked~.awardedphoto3{
+
+            background-image: url("https://media.gq.com.tw/photos/5e410ad8f371050008873297/master/w_800,c_limit/20200110-024821_U16223_M584532_3fba.jpg");
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        #awardedword1:hover~.awardedphoto1{
+
+            background-image: url("https://www.hypesphere.com/files/images/1917-featurette.jpg");
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        #awardedword2:hover~.awardedphoto2{
+
+            background-image: url("素材/爆破.jpg");
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        #awardedword3:hover~.awardedphoto3{
+
+            background-image: url("https://media.gq.com.tw/photos/5e410ad8f371050008873297/master/w_800,c_limit/20200110-024821_U16223_M584532_3fba.jpg");
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        
+
+
+
+
+
+        #youtube{
+            width: 100%;
+            display: flex;
+            justify-content:flex-start;
+
+        }
+
+        #videoitd{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-weight: 900;
+            font-family: "微軟正黑體";
+
+        }
+
+
+        #movie{
+            width: 50%;
+            height: 500px;
+        }
+
+        #man1{
+            width: 25%;
+            height: 500px;
+            background-image: url("素材/run1-01.jpg");
+            background-size: cover;
+            background-position: left;
+        }
+
+        #man2{
+            width: 25%;
+            height: 500px;
+            background-image: url("素材/run2-01.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        #my{
+            width: 100%;
+            height: 150px;
+            background-color: wheat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-weight: 900;
+        }
+
+        #gototop{
+            width: 100px;
+            height: 100px;
+            background-image: url("https://blog.hkmovie6.com/wp-content/uploads/2020/01/Fire-Scene-1.jpg");
+            background-size: cover;
+            background-position:top;
+            border-radius: 50%;
+            position: fixed;
+            right: 10px;bottom: 10px;
+            z-index: 99;
+        }
+
+        
+
+       
+
+
+
+
+
+
+
+
+        @media (max-width: 1280px) {
+
+            .body{
+                width: 960px;
+            }
+        }
+
+
+        @media (max-width: 960px) {
+
+            .boxa{
+                width: 100%;
+                margin:auto;
+            }
+
+            .banner{
+                width: 100%;
+                padding:0 0 30px 0;
+            }
+
+            #outline{
+                width: 100%;
+            }
+
+            #actor{
+                width: 100%;
+            }
+
+            .actor1{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                
+                
+
+            }
+
+            .actor2{
+                width: 100%;
+                display: flex;
+                flex-direction: column-reverse;
+            
+                justify-content: space-between;
+            }
+
+            .actortrg{
+                width: 100%;
+                height: 100%;
+            }
+
+            .actor1photo{
+                height: 300px;
+                background-attachment: fixed;
+            }
+
+            .actor2photo{
+                height: 300px;
+                background-position:center;
+                background-attachment: fixed;
+            }
+
+            #awarded{
+                background-color: black;
+            }
+
+            .awardedbox{
+                width: 100%;
+           
+            }
+
+            .awardeditd2{
+                margin:0;
+            }
+
+            .awardeditd3{
+                margin:0;
+            }
+
+            .item{
+                width: 20px;
+                margin:0 80px 100px 0;
+
+            }
+
+            #man1{
+                display: none;
+            }
+
+            #man2{
+                display: none;
+            }
+
+            
+            #movie{
+                width: 100%;
+            }
+
+
+            
+          
+}
+
+            
+
+
+        
+    </style>
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div id="nav">
+
+
+            <div class="logo">
+                <div class="boxa">
+                    <a href="#youtube">
+                        <div id="theme"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="banner">
+                <ul>
+                    <li><a href="#outline">
+                    <div id=outline2 class="item">電影大綱</div>
+                    </a></li>
+                    <li><a href="#actoritd">
+                    <div class="item">演員介紹</div>
+                    </a></li>
+                    <li><a href="#awarded-a">
+                    <div class="item">奧斯卡得獎</div>
+                    </a></li>
+                    <li><a href="#videoitd">
+                    <div class="item">立即觀看</div>
+                    </a></li>
+            </ul>
+            </div>
+            <!-- <div class="nava"> -->
+            <!-- <div class="boxb">
+                    <a href="">
+                        <div id=outline2 class="item">電影大綱</div>
+                    </a>
+                    <a href="">
+                        <div class="item">演員陣容</div>
+                    </a>
+                    <a href="">
+                        <div class="item">電影影評</div>
+                    </a>
+                    <a href="">
+                        <div class="item">立即觀看</div>
+                    </a> -->
+        </div>
+
+        </div>
+
+
+
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div id="outline" class="boxc">
+                <h1>電影大綱
+                    <p>《1917》「一鏡到底」最長的片段。我們跟在主角的背後，看著每個不知名的士兵，整軍列隊、搬運砲火、清理槍枝、洗衣做飯⋯或是緊抱著武器、倚靠在牆上閉目養神。完全不需要旁白或對話。《1917》的故事背景就這樣淺顯易懂。
+                    </p>
+                </h1>
+
+            </div>
+        </section>
+        <section>
+            <div id="photo-a"></div>
+        </section>
+        <section>
+            <div id="actoritd">演員介紹</div>
+            <div id="actor">
+                <div class="actor1">
+                    <div class="actor1photo actortrg"></div>
+                    <div class="actoritd actortrg">
+                        <h3>斯科菲爾德 (喬治·麥凱 飾)</h3>
+                        <p>英國士兵，布雷克的戰友，是一個有點笨拙的男孩，和戰友一起被選去完成一項艱難的任務。因為前面是寸步難行的敵人鋒線、戰壕，和不到24小時的時間，斯科菲爾德從開始的抱怨，到出於友情的應承，最後決定負重前行，最終歷經磨難，穿越重重障礙，完成了不可能完成的任務。
+                        </p>
+                    </div>
+                </div>
+                <div class="actor2">
+                    <div class="actoritd actortrg">
+                        <h3>布雷克 (迪恩-查爾斯·查普曼 飾)</h3>
+                        <P>英國士兵，在戰鬥進入最激烈之際，布雷克被佈置緊急任務，傳遞重要情報，任務相當艱鉅，要穿到德軍防線後方，向英軍傳達一條緊急命令，取消原定對德軍興登堡防線攻擊計劃，原因是德軍已經設計了陷阱。這關係到幾千名英軍士兵的生命，還包括在前線的哥哥。
+                        </P>
+                    </div>
+                    <div class="actor2photo actortrg"></div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div id="awarded-a">奧斯卡得獎</div>
+            <div id="awarded">
+                <div class="awardeditd awardeditd1">
+                    <div id="box111" class="awardedbox">
+                        <input id="btn1" type="checkbox" name="fake-btn">
+                        <div id="awardedword1">奧斯卡最佳攝影獎</div>
+                        <div class="awardedphoto1"></div>
+                    </div>
+                    
+                </div>
+                <div class="awardeditd awardeditd2">
+                    <div id="box222" class="awardedbox">
+                        <input id="btn2" type="checkbox" name="fake-btn">
+                        <div id="awardedword2">奧斯卡最佳效果獎</div>
+                        <div class="awardedphoto2"></div>
+                    </div>
+                    
+                </div>
+                <div class="awardeditd awardeditd3">
+                    <div id="box333" class="awardedbox">
+                        <input id="btn3" type="checkbox" name="fake-btn">
+                        <div id="awardedword3">奧斯卡最佳混音獎</div>
+                        <div class="awardedphoto3"></div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        
+
+            <!-- <script>
+
+                var awardedbox = document.querySelector(".awardedphoto")
+                var awardedphoto = document.querySelector(".awardedbox")
+
+                awardedbox.onclick=function(){
+                    awardedphoto.classList.add('active')
+                }
+            </script> -->
+
+        </section>
+        <section>
+            <div id="videoitd">立即觀看</div>
+            <div id="youtube">
+                <div id="man1"></div>
+                <iframe id="movie"  src="https://www.youtube.com/embed/L98BK6JmMxw" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <div id="man2"></div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <footer>
+
+        <div id="my">本網站為作品使用</div>
+
+
+
+
+
+    </footer>
+
+    <a href="#"><div id="gototop"></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
