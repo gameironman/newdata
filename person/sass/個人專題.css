@@ -1,0 +1,763 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.heightv2 {
+  height: 800px;
+}
+
+#row123 {
+  height: 100px;
+}
+
+.margin {
+  margin: 0 0 10px 0;
+}
+
+.row {
+  height: 100%;
+  background-color: black;
+}
+
+#logo {
+  height: 100%;
+  width: 80px;
+  margin: auto;
+  background-image: url("/個人專題素材/商標123.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box {
+  color: white;
+  margin: auto;
+}
+
+.box1 {
+  height: 500px;
+  width: 100%;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box2 {
+  height: 500px;
+  width: 100%;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 30px;
+  line-height: 80px;
+}
+
+#navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#newham {
+  display: none;
+}
+
+#banner {
+  background-image: url("/個人專題素材/BANNER234.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  line-height: 50px;
+  position: relative;
+  font-weight: 900;
+  font-size: 24px;
+  font-family: "標楷體";
+}
+
+#banner p {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+}
+
+.history {
+  width: 576px;
+  height: 700px;
+  background-image: url("/個人專題素材/星空背景v777.jpg");
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  margin: auto;
+}
+
+.photo {
+  background-image: url("/個人專題素材/奔跑.png");
+  position: absolute;
+  left: 10px;
+  bottom: 130px;
+}
+
+.photo2 {
+  background-image: url("/個人專題素材/白鹿.png");
+  position: absolute;
+  left: 130px;
+  bottom: 180px;
+}
+
+.background {
+  background-size: cover;
+  width: 130px;
+  height: 130px;
+  background-position: center;
+}
+
+.boxes {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 36px;
+  font-family: "微軟正黑體";
+}
+
+#goodfood {
+  width: 300px;
+  height: 150px;
+  background-image: url("/個人專題素材/網站地圖資料/甜點鬆餅.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 237px;
+  left: 50px;
+  z-index: 5;
+}
+
+#myhistroy {
+  width: 250px;
+  height: 300px;
+  background-color: whitesmoke;
+  position: absolute;
+  bottom: 30px;
+  left: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  z-index: 5;
+}
+
+#myhistroy h3 {
+  margin-bottom: 20px;
+}
+
+#goodfoodv2 {
+  width: 300px;
+  height: 150px;
+  background-image: url("/個人專題素材/網站地圖資料/醬燒松阪豬.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  z-index: 5;
+}
+
+.star {
+  height: 700px;
+  width: 100%;
+  background-image: url("/個人專題素材/星空背景.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#deer {
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+#title {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2 {
+  color: white;
+  margin: auto;
+  font-size: 36px;
+}
+
+#menu {
+  width: 100%;
+  background-image: url("https://www.chunshuitang.com.tw/img/st12bg_mini.jpg");
+}
+
+#menu #title1 {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#menu #title1 p {
+  font-size: 36px;
+  color: black;
+}
+
+#menu #order {
+  width: 100%;
+  height: 800px;
+  background-image: url("https://www.chunshuitang.com.tw/img/st12bg_mini.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+}
+
+#menu #order .container .row {
+  background-color: white;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+#menu #order .container .row #appetizer {
+  width: 100%;
+  height: 100%;
+  background-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#menu #order .container .row #appetizer2 {
+  width: 100%;
+  height: 100%;
+  background-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#menu #order .container .row .beef {
+  background-image: url("/個人專題素材/網站地圖資料/牛排.jpg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+#menu #order .container .row .pork {
+  background-image: url("/個人專題素材/網站地圖資料/碳烤鯖魚.jpg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#menu #order .container .row .beefnoodles {
+  background-image: url("/個人專題素材/網站地圖資料/辣椒炒牛肉麵.jpg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+#menu #order .container .row .redrice {
+  background-image: url("https://cdn2.ettoday.net/images/1620/1620711.jpg");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+#menu #order .container .row .gooddrink {
+  background-image: url("/個人專題素材/網站地圖資料/美式咖啡.jpg");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+#activiy {
+  width: 100%;
+  background-image: url("https://www.chunshuitang.com.tw/img/st2-12bg.jpg");
+  padding-top: 100px;
+}
+
+#activiy #activiytitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  color: black;
+  margin: auto;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+#activiy .placard {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#activiy .activiydte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#activiy .activiycontent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#activiy #activiy1,
+#activiy #activiy2,
+#activiy #activiy3,
+#activiy #activiy4,
+#activiy #activiy5 {
+  height: 50px;
+  background-image: url("https://www.chunshuitang.com.tw/img/st2-12bg.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#activiy #activiy1 #blackbox,
+#activiy #activiy2 #blackbox,
+#activiy #activiy3 #blackbox,
+#activiy #activiy4 #blackbox,
+#activiy #activiy5 #blackbox {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+}
+
+#activiy #moreview {
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contact #contact_us {
+  background-color: white;
+}
+
+#contact #contact_us h2 {
+  margin-bottom: 50px;
+  color: black;
+}
+
+#contact #contact_us p {
+  color: black;
+}
+
+#contact #contact_us iframe {
+  margin-top: 50px;
+}
+
+#contact #booking {
+  background-color: white;
+}
+
+#contact #booking h2 {
+  color: black;
+  margin-bottom: 50px;
+}
+
+#contact #booking p {
+  font-size: 10px;
+}
+
+#contact #booking #gobooking {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 75px;
+}
+
+#contact #booking .form-group {
+  margin: 100px 0 50px 0;
+}
+
+#contact #booking .form-group .form-control {
+  height: 150px;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: dimgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer a {
+  width: 100px;
+  height: 30px;
+  color: black;
+  margin: auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer p {
+  font-weight: 900;
+}
+
+.modal-content {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffdead;
+}
+
+.swiper-container {
+  width: 40%;
+  height: 40%;
+  border-radius: 3%;
+  position: absolute;
+  top: 200px;
+  left: 0;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#box123 {
+  width: 300px;
+  height: 300px;
+  background-image: url("https://miemie.tw/wp-content/uploads/%E5%A4%A9%E7%8B%97%E5%92%96%E5%93%A9%E5%AE%B6-9.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.boxes1 {
+  width: 50%;
+  height: 100%;
+  line-height: 20px;
+  font-weight: 900;
+  text-align: center;
+  padding: 0 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.boxes1 p {
+  font-size: 8px;
+}
+
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: #232323;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover {
+  color: tomato;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  -webkit-transform-origin: 4px 0px;
+          transform-origin: 4px 0px;
+  -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menuToggle span:first-child {
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  -webkit-transform: rotate(45deg) translate(-2px, -1px);
+          transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+          transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  -webkit-transform: rotate(-45deg) translate(0, -1px);
+          transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+  -webkit-transform: none;
+          transform: none;
+}
+
+@media (max-width: 960px) {
+  #navbar {
+    display: none;
+  }
+  #newham {
+    display: block;
+  }
+  #row123 {
+    height: 80px;
+  }
+}
+/*# sourceMappingURL=個人專題.css.map */

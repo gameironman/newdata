@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Swiper demo</title>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+        <!-- Demo styles -->
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            html,
+            body {
+                position: relative;
+                height: 100%;
+            }
+
+            body {
+                background: #eee;
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                color: #000;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            .swiper-container {
+                width: 30%;
+                height: 30%;
+                display: flex;
+                justify-content: space-around;
+                border-radius: 3%;
+
+            }
+
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: flex-start;
+            }
+
+            .box {
+                width: 50%;
+                height: 80%;
+                background-image: url("https://www.steamxo.com/wp-content/uploads/2019/04/5C11Ex230610_611159.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center ;
+
+
+              
+            }
+
+            .boxes {
+                width: 50%;
+                height: 100%;
+                line-height: 20px;
+                font-weight: 900;
+                text-align: center;
+                padding:0 15px 0 0;
+           
+                font-family: 'Paytone One', sans-serif;
+               
+
+            }
+            .boxes p{
+                font-size: 8px;
+            }
+        </style>
+    </head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box"></div>
+                <div class="boxes">
+                    <h1>一拳超人</h1>
+                    <h3>必殺技:致命的一拳</h3>
+                    <p>故事的主角，職業是英雄，以前地獄式訓練自己，結果強到令自己脫光了頭髮，他常常因為無法遇到可以使出全力的敵人而感到無聊，無論多強的敵人幾乎都是一拳擊敗。</p>
+                </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+       
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        
+    
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'fraction',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
